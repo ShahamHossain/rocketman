@@ -1,0 +1,95 @@
+/* common start */
+body{}
+/* common end */
+/* header start */
+header{
+    padding: 30px 0;
+}
+.container{
+    margin: 0 auto;
+    width: 90%;
+    overflow: hidden;
+    /* border: 1px solid red; */
+}
+.logo{
+    width: 25%;
+    float: left;
+    /* border: 1px solid black; */
+}
+.logo a{
+    display: block;
+}
+.logo a img{
+    width: 100%;
+}
+.menu{
+    width: 65%;
+    float: right;
+    /* border: 1px solid black; */
+}
+.menu ul{
+    margin-top: 35px;
+    float: right;
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+}
+.menu ul li a{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: lighter;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0 35px;
+}
+.menu ul li a:hover{
+    color: grey;
+}
+
+/* header end */
+/* banner start */
+.banner{
+    background-image: url(../images/bgc.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.b_content{
+    margin-top: 170px;
+    width: 65%;
+    /* border: 1px solid orangered; */
+}
+.b_content h1{
+    margin: 0;
+    font-size: 50px;
+    font-weight: 300;
+    color: #121b2c;
+    text-transform: capitalize;
+}
+.b_content h2{
+    margin: 5px 0 0 0;
+    font-size: 48px;
+    font-weight: 300;
+    color: #ffffff;
+    text-transform: capitalize;
+}
+.b_content p{
+    margin: 25px 0;
+    font-size: 33px;
+    font-weight: 400;
+    color: #121b2c;
+}
+.b_content button{
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 15px 40px;
+}
+.b_content button a{
+    text-decoration: none;
+    color: grey;
+}
+
+/* banner end */
